@@ -1,0 +1,324 @@
+
+
+/* NAVIGATION btn dev */
+.navigation-buttondev
+{
+    position: fixed;
+    z-index: 1;
+    top: 20%;
+    right: 0;
+
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.navigation-buttondev p
+{
+  font-size: 1.5rem;
+  font-weight: 400;
+  
+  margin: 0;
+  padding: .3em 3em .3em 1.8em;
+  
+  -webkit-transition: .15s ease;
+  -o-transition: .15s ease;
+  transition: .15s ease;
+  letter-spacing: .01em;
+  
+  color: #2600ff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.navigation-buttondev:hover p
+{
+  background: #fff;
+  padding: .3em 4em .3em 1.8em;
+}
+
+
+
+
+
+
+/* NAVIGATION btn Gamedev */
+.navigation-buttongamedev
+{
+    position: fixed;
+    z-index: 1;
+    top: 25%;
+    right: 0;
+
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.navigation-buttongamedev p
+{
+  font-size: 1.5rem;
+  font-weight: 400;
+  
+  margin: 0;
+  padding: .3em 3em .3em 1.8em;
+  
+  -webkit-transition: .15s ease;
+  -o-transition: .15s ease;
+  transition: .15s ease;
+  letter-spacing: .01em;
+  
+  color: #2600ff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.navigation-buttongamedev:hover p
+{
+  background: #fff;
+  padding: .3em 4em .3em 1.8em;
+}
+
+
+
+
+
+
+
+
+
+/* NAVIGATION btn 3d */
+.navigation-button3d
+{
+    position: fixed;
+    z-index: 1;
+    top: 30%;
+    right: 0;
+
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.navigation-button3d p
+{
+  font-size: 1.5rem;
+  font-weight: 400;
+  
+  margin: 0;
+  padding: .3em 3em .3em 1.8em;
+  
+  -webkit-transition: .15s ease;
+  -o-transition: .15s ease;
+  transition: .15s ease;
+  letter-spacing: .01em;
+  
+  color: #2600ff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.navigation-button3d:hover p
+{
+  background: #fff;
+  padding: .3em 4em .3em 1.8em;
+}
+
+
+
+
+
+
+
+
+/* NAVIGATION btn videoedits */
+.navigation-buttonvideoedits
+{
+    position: fixed;
+    z-index: 1;
+    top: 35%;
+    right: 0;
+
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.navigation-buttonvideoedits p
+{
+  font-size: 1.5rem;
+  font-weight: 400;
+  
+  margin: 0;
+  padding: .3em 3em .3em 1.8em;
+  
+  -webkit-transition: .15s ease;
+  -o-transition: .15s ease;
+  transition: .15s ease;
+  letter-spacing: .01em;
+  
+  color: #2600ff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.navigation-buttonvideoedits:hover p
+{
+  background: #fff;
+  padding: .3em 4em .3em 1.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* btn */
+.navigation-buttonbtn
+{
+    position: fixed;
+    z-index: 1;
+    top: 33%;
+    right: 0;
+
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.navigation-buttonbtn p
+{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding: .3em 3em .3em 1.8em;
+  -webkit-transition:;
+  -o-transition:;
+  transition: .15s ease;
+  letter-spacing: .01em;
+  color: #ff0000;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  -moz-transition:;
+  -ms-transition:;
+}
+
+.navigation-buttonbtn:hover p
+{
+  background: #fff;
+  padding: .3em 4em .3em 1.8em;
+}
+
+
+
+
+
+
+
+/* hired */
+.navigation-buttonhired
+{
+    position: fixed;
+    z-index: 1;
+    top: 79.7%;
+    right: 0;
+
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.navigation-buttonhired p
+{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding: .3em 3em .3em 1.8em;
+  -webkit-transition:;
+  -o-transition:;
+  transition: .15s ease;
+  letter-spacing: .01em;
+  color: #ff0000;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  -moz-transition:;
+  -ms-transition:;
+}
+
+.navigation-buttonhired:hover p
+{
+  background: #fff;
+  padding: .3em 4em .3em 1.8em;
+}
+
+
+
+/* 3D */
+/* 3D */
+/* 3D */
+
+
+.text {
+    /* position: absolute; */
+    top: 10%; 
+    right: 16px;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: .7em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+
+
+
+
+
+
+
+
+    background-image: url(../img/eyelooping.gif);
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(255, 255, 255, 0);
+    background-size: cover;
+    text-shadow: 0 0 20px #ff060600, 0 0 40px #1100ff00;
+
+
+
+
+
+
+
+
+
+}
