@@ -51,17 +51,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 3rem;
+  padding: 1.2rem 1rem;
   /* background: rgba(13, 17, 23, 0.85); */
   /* backdrop-filter: blur(10px); */
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -81,6 +81,30 @@ body {
   list-style: none;
 }
 
+.navbar ul i {
+  font-size: 1.8em;
+
+  /* float: left; */
+  color: #ffffff;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  /* font-size: 45px; */
+  /* font-weight: 500; */
+  text-shadow: 0 0 20px #00fffb, 0 0 40px #001aff;
+}
+
+.navbar ul i:hover {
+  /* background-color: #ddd; */
+  /* background-color: #0081bc; */
+  color: rgb(255, 255, 255);
+  /* text-decoration: underline; */
+
+  /* color: rgb(255, 255, 255); */
+  text-shadow: 0 0 20px #ff0606, 0 0 40px #0400ff;
+
+}
+
 .navbar ul li { margin-left: 2rem; }
 
 .navbar ul li a {
@@ -95,7 +119,7 @@ body {
 .menu-toggle {
   display: none;
   color: #1100ff;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   cursor: pointer;
 
   background-image: url(./assets/img/eyelooping.gif);
@@ -108,15 +132,6 @@ body {
 
 
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -310,6 +325,11 @@ section {
     line-height: 2.3;
     
   }
+
+  /* .navbar ul li i {
+    display: block;
+    font-size: 20px;
+  } */
 
   .navbar ul.active { display: flex; }
 
