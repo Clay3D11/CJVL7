@@ -261,8 +261,8 @@ section {
 }
 
 .project-card {
-  background: #161b22;
-  padding: 2rem;
+  background: #161b2204;
+  /* padding: 2rem; */
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
