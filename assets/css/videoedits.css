@@ -161,7 +161,7 @@ About Page
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem 1rem;
+  /* padding: 4rem 1rem; */
   overflow: hidden;
 }
 
@@ -175,7 +175,6 @@ About Page
   z-index: 0;
   filter: brightness(0.45);
 
-  background-image: url(../img/3d.gif);
 }
 
 /* === Glass Container === */
@@ -226,7 +225,7 @@ input[type="radio"] { display: none; }
   z-index: 1;
   position: relative;
   overflow: hidden;
-  padding: 2rem;
+  padding: 1rem;
   color: #fff;
 }
 .contentvideos {
@@ -355,29 +354,12 @@ input[type="radio"] { display: none; }
 }
  */
 
-
-
-
-
-
-
-
-
-
-
-
 /* Video prooperties */
 /* Video prooperties */
 
-
-
-
-
-
-
-
-
-
+.tab-contentvideos {
+  padding: 1rem;
+}
 
 
 
@@ -392,13 +374,6 @@ input[type="radio"] { display: none; }
   }
 }
 
-
-
-
-
-
-
-
 /* embed it video play fix code snippet */
 /* embed it video play fix code snippet */
 /* embed it video play fix code snippet */
@@ -408,7 +383,7 @@ input[type="radio"] { display: none; }
 .tab-contentvideos {
   position: relative;
   overflow: visible;
-  padding: 2rem;
+  padding: 1rem;
   color: #fff;
 }
 
@@ -434,7 +409,7 @@ input[type="radio"] { display: none; }
 .contentvideos iframe {
   width: 100%;
   max-width: 560px;
-  height: 315px;
+  height: 215px;
   border: none;
   border-radius: 10px;
   display: block;
