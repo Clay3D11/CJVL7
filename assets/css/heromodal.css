@@ -141,7 +141,7 @@ button.primary:hover {
 
 @media (max-width: 480px) {
   dialog {
-    height: 500px;
+    height: 400px;
     width: 95%;
     padding: 1.2rem;
     border-radius: 12px;
@@ -203,4 +203,5 @@ button.primary {
 		opacity: 1;
 	}
 }
+
 
