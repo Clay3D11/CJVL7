@@ -237,69 +237,98 @@
   <section class="hero-section">
     <div class="container reveal">
 
-      <h1 class="fade-in">Videos</h1>
+      <!-- <h1 class="fade-in">Videos</h1> -->
+      <h1>Limitless
+        <span>
+          <span>Music</span>
+          <span>Visuals</span>
+          <span>Music Videos</span>
+          <span>Real Estate Videos</span>
+          <span>Universal</span>
+        </span>
+      </h1>
+      <style>
+        h1 > span {
+          position: relative;
+          display: inline-block;
+          color: blue;
+          height: 1.25em;
+          vertical-align: bottom;
+          overflow: hidden;
+        }
+
+        h1 > span > span {
+          display: block;
+          animation: animateWords 5s infinite ease;
+        }
+        @keyframes animateWords {
+          0% {transform: translateY(0%);}
+          25% {transform: translateY(-100%);}
+          50% {transform: translateY(-200%);}
+          75% {transform: translateY(-300%);}
+          100% {transform: translateY(-400%);}
+
+        }
+
+        
+      </style>
 
       <br>
-  <br>
-  <br>
-  <section class="glass-tabs">
-  <!-- Background Video -->
-  <!-- <video autoplay muted loop playsinline class="bg-video">
-    <source src="./assets/videos/Clinvidremix1min.mp4" type="video/mp4">
-  </video> -->
+      <br>
+      <br>
+      <section class="glass-tabs">
+      <!-- Background Video -->
+      <!-- <video autoplay muted loop playsinline class="bg-video">
+        <source src="./assets/videos/Clinvidremix1min.mp4" type="video/mp4">
+      </video> -->
 
-  <div class="tab-container">
-    <input type="radio" id="music" name="tabs" checked>
-    <input type="radio" id="realestate" name="tabs">
+      <div class="tab-container">
+        <input type="radio" id="music" name="tabs" checked>
+        <input type="radio" id="realestate" name="tabs">
 
-    <div class="tab-buttons">
-      <label for="music">🎵 Music Videos</label>
-      <label for="realestate">🏠 Real Estate Videos</label>
-    </div>
-
-
-
-
-    <div class="tab-contentvideos">
+        <div class="tab-buttons">
+          <label for="music">🎵 Music Videos</label>
+          <label for="realestate">🏠 Real Estate Videos</label>
+        </div>
 
 
 
-      <!-- Music Videos -->
-      <!-- Music Videos -->
 
-      <!-- <div class="contentvideos music">
-        <h2>Music Videos</h2>
-        <p></p>
-      </div> -->
+        <div class="tab-contentvideos">
 
 
-      <div class="contentvideos music">
-        <!-- <h2>Music Videos</h2> -->
-        <iframe width="200" height="250" src="https://www.youtube.com/embed/QkbSpfG4wSs?list=RDEMBQombNPd2hVHDZcDZRK5WA" title="Fa Melz - Tengo Un Flow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          <!-- Music Videos -->
+          <!-- Music Videos -->
+
+          <!-- <div class="contentvideos music">
+            <h2>Music Videos</h2>
+            <p></p>
+          </div> -->
+
+
+          <div class="contentvideos music">
+            <!-- <h2>Music Videos</h2> -->
+            <iframe width="150" height="150" src="https://www.youtube.com/embed/QkbSpfG4wSs?list=RDEMBQombNPd2hVHDZcDZRK5WA" title="Fa Melz - Tengo Un Flow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+
+
+          
+
+
+          <!-- Real Estate -->
+          <!-- Real Estate -->
+
+          <div class="contentvideos realestate">
+            <!-- <h2>Real Estate Videos</h2> -->
+            <p></p>
+          </div>
+
+        </div>
+
+
       </div>
-
-
-      
-
-
-      <!-- Real Estate -->
-      <!-- Real Estate -->
-
-      <div class="contentvideos realestate">
-        <!-- <h2>Real Estate Videos</h2> -->
-        <p></p>
-      </div>
-
-    </div>
-
-
-  </div>
-  </section>
-
-
-
-      
-
+      </section>
 
 
       
