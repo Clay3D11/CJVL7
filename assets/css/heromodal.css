@@ -29,7 +29,7 @@ dialog {
   
   /*Modified*/
   
-  background-image: url(../img/2.png);
+  background-image: url(../img/cv/cv2.png);
   background-position: center;
 
   /*background: url('./assets/img/2.png') center/contain;
@@ -140,12 +140,14 @@ button.primary:hover {
 
 @media (max-width: 480px) {
   dialog {
-    height: 400px;
+    height: 500px;
     width: 95%;
     padding: 1.2rem;
     border-radius: 12px;
 
-    background-image: url(../img/eyelooping.gif);
+    background-image: url(../img/cv/cv2.png);
+    /* background-size: contain; */
+    background-size: cover;
   }
 
   dialog h2 {
