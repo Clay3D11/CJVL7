@@ -147,8 +147,7 @@ button.primary:hover {
     border-radius: 12px;
 
     background-image: url(../img/eyelooping.gif);
-    /* background-size: contain; */
-    background-size: cover;
+    
   }
 
   dialog h2 {
@@ -204,3 +203,4 @@ button.primary {
 		opacity: 1;
 	}
 }
+
