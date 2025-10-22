@@ -1,0 +1,133 @@
+/* NAVIGATION btn */
+/* Bio & Back btn */
+
+a {
+  text-decoration: none;
+
+
+
+}
+
+
+/* Bio & Back btn */
+/* Bio & Back btn */
+/* Bio & Back btn */
+.navigation-button
+{
+    position: fixed;
+    z-index: 1;
+    top: 17%;
+    right: 3%;
+
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.navigation-button p
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  
+  margin: 0;
+  /* padding: .3em 3em .3em 1.8em; */
+  padding: .3em .6em .3em 1.8em;
+  
+  -webkit-transition: .15s ease;
+  -o-transition: .15s ease;
+  transition: .15s ease;
+  letter-spacing: .01em;
+  
+  color: #ffffff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.navigation-button:hover p
+{
+  background: #fff;
+  padding: .1em 4em .1em 1.8em;
+
+  background-image: url(../img/eyelooping.gif);
+  background-position: center;
+  background-size: cover;
+
+
+  border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  
+}
+
+
+
+
+/* Hired BTN */
+/* Hired BTN */
+/* Hired BTN */
+.navigation-buttonhired
+{
+    position: fixed;
+    z-index: 1;
+    top: 80%;
+    right: 0;
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+
+.navigation-buttonhired p
+{
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0;
+  padding: .1em 3em .1em 1.8em;
+  
+  transition: .15s ease;
+  letter-spacing: .01em;
+  color: #ff0000;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+ 
+}
+
+.navigation-buttonhired:hover p
+{
+  /* background: #fff; */
+  padding: .1em 4em .1em 1.8em;
+
+
+  background-image: url(../img/eyelooping.gif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+
+
+
+
+}
+
+
+
+
+
+/* ICONS */
+/* ICONS */
+/* ICONS */
+
+.merch {
+  position: fixed; 
+  top: 2.5%; 
+  right: 65%;
+}
