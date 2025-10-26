@@ -207,6 +207,40 @@ body {
 
 }
 
+
+
+/* H1 moving up */
+h1 > span {
+  position: relative;
+  display: inline-block;
+  /* color: rgb(255, 255, 255); */
+  height: 1.25em;
+  vertical-align: bottom;
+  overflow: hidden;
+
+  text-shadow: 0 0 5px #0836ff, 0 0 10px #0004ff; 
+
+}
+
+h1 > span > span {
+  display: block;
+  animation: animateWords 5s infinite ease;
+}
+@keyframes animateWords {
+  0% {transform: translateY(0%);}
+  25% {transform: translateY(-100%);}
+  50% {transform: translateY(-200%);}
+  75% {transform: translateY(-300%);}
+  100% {transform: translateY(-400%);}
+
+}
+
+        
+
+
+
+
+
 .btn {
   display: inline-block;
   margin-top: 2rem;
