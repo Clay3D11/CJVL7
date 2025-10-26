@@ -55,16 +55,6 @@ body {
 
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Header */
 .main-header {
   display: flex;
@@ -339,6 +329,16 @@ section {
   text-align: center;
   /* margin-bottom: 4rem; */
 }
+
+section p {
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+}
+
 
 .frames-grid {
   height: 200px;
