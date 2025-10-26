@@ -50,8 +50,12 @@ body {
 
 /* Titles/Heading Styles */
 .title {
-  /* margin: auto; */
+  padding-top: 3em;
   text-align: center;
+  text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc;
+  
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -402,7 +406,7 @@ section p {
 }
 
 @keyframes scrollText {
-  0% { transform: translateX(0); }
+  0% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
   100% { transform: translateX(-100%); }
 }
 
