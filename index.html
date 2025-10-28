@@ -20,6 +20,9 @@
     
     <link rel="stylesheet" href="./assets/css/marqueesocial.css">
 
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/videoedits.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
     <!-- Icon Links -->
@@ -181,11 +184,28 @@
 
     </section>
 
-    <!-- Main Content -->
-    <main class="content">
+    <!-- Main -->
+    <main style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  max-width: 850px;
+  width: 100%;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  
+  margin: 0 auto; /* centers horizontally */
+  min-height: 30vh; /* centers vertically within viewport */
+  
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.062);
+  border: 1px solid rgba(255, 255, 255, 0.116);
+  box-shadow: 0 0 25px rgba(0, 255, 251, 0.15);
+  color: #e7faff;">
 
-      <section id="about" class="reveal">
-        <h2>About Me</h2>
+      <section id="about" class="reveal"  >
+        <h2 >About Me</h2>
         <p>I'm a multidisciplinary creator with expertise in frontend development, game design, 3D art, and video editing. My work bridges the gap between interactive technology and visual storytelling — crafting immersive experiences through clean code, dynamic visuals, and cinematic motion.</p>
 
 
@@ -258,49 +278,369 @@
 
     </main>
 
-
-    <!-- Frames -->
-    <section id="frames" class="reveal">
-        
-        <h1>Limitless Visuals</h1>
-        
-
-        <div class="frames-grid">
-
-          <div class="frames-card reveal">
-            <!-- <h3>frames One</h3>
-            <p>Custom landing page design built with HTML, CSS, and JS.</p> -->
-          </div>
+    <br>
+    <br>
+    <br>
 
 
-          <div class="frames-card reveal">
-            <!-- <h3>frames Two</h3>
-            <p>3D interactive portfolio using Three.js and WebGL.</p> -->
-          </div>
+    <section id="about" class="about-section" class="reveal">
+      <fieldset class="about-box">
+      <h1>Universal Limitless</h1>
+      <p>Universal Limitless is a next-generation creative hub built to empower artists, creators, and visionaries across the digital landscape. Universal Limitless blends cinematic production, music streaming, visual art, and e-commerce into one seamless ecosystem where art, technology, and innovation converge.</p>
+     
+      
+      <span class="toolong">
+      <!-- <p>As a multimedia production and distribution brand, Universal Limitless gives artists a platform to stream their music, showcase their videos, and build professional portfolios that reach global audiences. From music video editing and visual storytelling to full-scale brand development, the platform is designed to elevate creative voices through quality, style, and visibility.</p> -->
+
+      
+
+      <p>At its core, Universal Limitless is more than a media brand — it’s a creative movement. A place where artists grow, brands evolve, and audiences experience visual storytelling at its highest level. From cinematic edits and real estate visuals to 3D art and merchandise, Universal Limitless transforms imagination into impact — empowering creators to share their vision without limits.</p>
+      </span>
 
 
-          <div class="frames-card reveal">
-            <!-- <h3>frames Three</h3>
-            <p>Creative UI animation experiment inspired by motion design.</p> -->
-          </div>
-          
-          <div class="frames-card reveal">
-            <!-- <h3>frames Three</h3>
-            <p>Creative UI animation experiment inspired by motion design.</p> -->
-          </div>
-          
-          
+
+
+
+      <section class="limitless-section">
+        <div class="limitless-quote">
+          <h2>Our Mission</h2>
+
+          <p>We believe creativity should have no boundaries. Our mission is to provide artists and entrepreneurs with the tools and exposure to turn passion into purpose — through world-class video production, design, and digital storytelling.
+          <span class="toolong" >
+          <br>
+          <br>
+          To empower artists and creators by providing the tools, exposure, and freedom
+          to turn imagination into impact — through innovation, storytelling, and limitless creativity.
+          </p>
+          </span>
+
 
 
         </div>
 
+        <div class="limitless-quote">
+          <h2>Our Vision</h2>
+          <p>Universal Limitless stands for innovation, collaboration, and artistic freedom. We blend video, music, and digital art into one unified experience — giving every creator the space to grow, express, and thrive without limits.
+            <span class="toolong" >
+          <br>
+          <br>
+          To build a global creative ecosystem where art, technology, and opportunity
+          merge — enabling every creator to grow, express, and thrive without limits.
+          </p>
+          </span>
+        </div>
+      </section>
+      <style>.limitless-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0 auto;
+        padding: clamp(2rem, 4vw, 4rem);
+        max-width: 900px;
+        width: 100%;
+        text-align: center;
+        gap: 2rem;
+      }
+
+      .limitless-quote {
+        border: 1px solid rgba(0, 255, 251, 0.3);
+        border-radius: 16px;
+        backdrop-filter: blur(10px);
+        background: rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 25px rgba(0, 255, 251, 0.25);
+
+        padding: clamp(1.5rem, 3vw, 2.5rem);
+        color: #e7faff;
+        transition: all 0.3s ease;
+      }
+
+      .limitless-quote:hover {
+        box-shadow: 0 0 35px rgba(0, 255, 251, 0.4);
+        transform: translateY(-4px);
+      }
+
+      .limitless-quote h2 {
+        font-size: clamp(1.5rem, 2vw, 2rem);
+        margin-bottom: 1rem;
+        color: #00eaff;
+        text-shadow: 0 0 15px rgba(0, 255, 251, 0.5);
+      }
+
+      .limitless-quote p {
+        font-size: clamp(1rem, 1.5vw, 1.1rem);
+        line-height: 1.6;
+      }
+
+      /* ✅ Responsive for smaller screens */
+      @media (max-width: 600px) {
+        .limitless-section {
+          padding: 1.5rem;
+        }
+
+        .limitless-quote {
+          padding: 1.2rem;
+        }
+
+        .limitless-quote h2 {
+          font-size: 1.3rem;
+        }
+
+        .limitless-quote p {
+          font-size: 0.95rem;
+        }
+      }
+      </style>
+
+
+
+      <!-- Marquee Social -->
+      <!-- Marquee Social -->
+      <div class="marqueesocial">
+        <div>
+          
+          <!-- Frontend Developer -->
+          <!-- <img src="./assets/img/icons/vscode.png" alt="vscode">
+          <img src="./assets/img/icons/HTML5.svg" alt="HTML5">
+          <img src="./assets/img/icons/CSS3.svg" alt="CSS3">
+          <img src="./assets/img/icons/js.svg" alt="JavaScript">
+          <img src="./assets/img/icons/react.png" alt="react">
+          <img src="./assets/img/icons/angular.png" alt="angular">
+          <img src="./assets/img/icons/vue.png" alt="vue"> -->
+          <!-- Game Developer -->
+          <img src="./assets/img/icons/Epic_Games.png" alt="epicgame">
+          <img src="./assets/img/icons/unrealengine.png" alt="unrealengine">
+          <img src="https://cdn-icons-png.flaticon.com/512/5969/5969347.png" alt="unity">
+          <img src="https://styles.redditmedia.com/t5_6v2y4l/styles/communityIcon_as7ojpteijna1.png" alt="UNFN">
+          <img src="./assets/img/icons/Blender.png" alt="Blender">
+          <!-- 3D Artist -->
+          <img src="./assets/img/icons/Adobe.png" alt="Adove">
+          <img src="https://cdn-icons-png.flaticon.com/512/5969/5969347.png" alt="Unity">
+          <!-- VideoEditor -->
+          <img src="./assets/img/icons/ae.png" alt="AE">
+          <img src="./assets/img/icons/pr.png" alt="PR">
+
+
+
+          <!-- 2nd -->
+
+          <!-- Frontend Developer -->
+          <!-- <img src="./assets/img/icons/vscode.png" alt="vscode">
+          <img src="./assets/img/icons/HTML5.svg" alt="HTML5">
+          <img src="./assets/img/icons/CSS3.svg" alt="CSS3">
+          <img src="./assets/img/icons/js.svg" alt="JavaScript">
+          <img src="./assets/img/icons/react.png" alt="react">
+          <img src="./assets/img/icons/angular.png" alt="angular">
+          <img src="./assets/img/icons/vue.png" alt="vue"> -->
+          <!-- Game Developer -->
+          <img src="./assets/img/icons/Epic_Games.png" alt="epicgame">
+          <img src="./assets/img/icons/unrealengine.png" alt="unrealengine">
+          <img src="https://cdn-icons-png.flaticon.com/512/5969/5969347.png" alt="unity">
+          <img src="https://styles.redditmedia.com/t5_6v2y4l/styles/communityIcon_as7ojpteijna1.png" alt="UNFN">
+          <img src="./assets/img/icons/Blender.png" alt="Blender">
+          <!-- 3D Artist -->
+          <img src="./assets/img/icons/Adobe.png" alt="Adove">
+          <img src="https://cdn-icons-png.flaticon.com/512/5969/5969347.png" alt="Unity">
+          <!-- VideoEditor -->
+          <img src="./assets/img/icons/ae.png" alt="AE">
+          <img src="./assets/img/icons/pr.png" alt="PR">
+          
+          
+          
+          
+          <!-- 3rd -->
+
+          <!-- Frontend Developer -->
+          <!-- <img src="./assets/img/icons/vscode.png" alt="vscode">
+          <img src="./assets/img/icons/HTML5.svg" alt="HTML5">
+          <img src="./assets/img/icons/CSS3.svg" alt="CSS3">
+          <img src="./assets/img/icons/js.svg" alt="JavaScript">
+          <img src="./assets/img/icons/react.png" alt="react">
+          <img src="./assets/img/icons/angular.png" alt="angular">
+          <img src="./assets/img/icons/vue.png" alt="vue"> -->
+          <!-- Game Developer -->
+          <img src="./assets/img/icons/Epic_Games.png" alt="epicgame">
+          <img src="./assets/img/icons/unrealengine.png" alt="unrealengine">
+          <img src="https://cdn-icons-png.flaticon.com/512/5969/5969347.png" alt="unity">
+          <img src="https://styles.redditmedia.com/t5_6v2y4l/styles/communityIcon_as7ojpteijna1.png" alt="UNFN">
+          <img src="./assets/img/icons/Blender.png" alt="Blender">
+          <!-- 3D Artist -->
+          <img src="./assets/img/icons/Adobe.png" alt="Adove">
+          <img src="https://cdn-icons-png.flaticon.com/512/5969/5969347.png" alt="Unity">
+          <!-- VideoEditor -->
+          <img src="./assets/img/icons/ae.png" alt="AE">
+          <img src="./assets/img/icons/pr.png" alt="PR">
+
+          
+
+
+
+            
+            
+        </div>
+      
+      </div>
+
+
+
+
+
+
+
+    </fieldset>
+    </section>
+
+
+
+
+    <br>
+    <br>
+
+    <section class="info-section">
+
+
+
+      <div class="info-card" style="  display: flex;
+        flex-direction: column;
+        justify-content: flex-end; /* pushes button to bottom */
+        align-items: center;        /* centers horizontally */
+        height: 100%;               /* make sure the parent has a set height */
+        position: relative;
+        padding-bottom: 2rem;       /* add space under the button */
+      ">
+        <h2>Limitless Music </h2>
+        <p>
+          At the heart of Universal Limitless lies Limitless Music — a streaming and showcase hub where artists can publish music, music videos, and portfolios in a professional, high-visibility environment. It’s more than a platform; it’s a launchpad for talent.
+        </p>
+        <br>
+        <button class="shadow__btn">
+          Coming Soon!
+      </button>
+      </div>
+
+
+
+      <div class="info-card" style="  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes button to bottom */
+  align-items: center;        /* centers horizontally */
+  height: 100%;               /* make sure the parent has a set height */
+  position: relative;
+  padding-bottom: 1rem;       /* add space under the button */
+">
+        <h2>Oline Store</h2>
+        <p>
+          Our online store connects creators directly with their fans. Artists can sell their official merchandise, while a separate curated shop offers 3D art, prints, and digital visuals for collectors and enthusiasts worldwide.
+        </p>
+        <br>
+        <button class="shadow__btn">
+          Coming Soon!
+        </button>
+      </div>
+
+
+
+      <div class="info-card" style="  display: flex;
+        flex-direction: column;
+        justify-content: flex-end; /* pushes button to bottom */
+        align-items: center;        /* centers horizontally */
+        height: 100%;               /* make sure the parent has a set height */
+        position: relative;
+        padding-bottom: 2rem;       /* add space under the button */
+        ">
+
+        <h2>Limitless Visuals</h2>
+
+        <p> The brand also features a dedicated visual art store, offering premium 3D artwork, framed prints, and digital visuals for collectors and enthusiasts seeking bold, original designs.</p>
+
+
+        <br>
+        <br>
+
+
+        <button class="shadow__btn">
+          <a href="3dvisuals.html">
+          <i class="fa fa-cube" style="color: #fff;"></i><span style="color: #fff;">3D Visuals</span></a>
+        </button>
+
+
+
+        
+
+
+
+
+
+        
+      </div>
+
+
+
+      <!-- btn Style -->
+      <style> 
+      .shadow__btn {
+        margin: auto;
+        padding: 10px 20px;
+        border: none;
+        font-size: 17px;
+        color: #fff;
+        border-radius: 7px;
+        letter-spacing: 4px;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: 0.5s;
+        transition-property: box-shadow;
+        align-content: baseline;
+
+      }
+
+      .shadow__btn {
+        background: rgb(6, 22, 245);
+        box-shadow: 0 0 25px rgb(0,140,255);
+      }
+
+      .shadow__btn:hover {
+        box-shadow: 0 0 5px rgb(0,140,255),
+                    0 0 25px rgb(0,140,255),
+                    0 0 50px rgb(0,140,255),
+                    0 0 100px rgb(0,140,255);
+      }</style>
 
     </section>
+
+
+    <br>
+    <br>
+    <br>
+
+    
+
+
+    <!-- Frames -->
+    <!-- <section id="frames" class="reveal">
+        
+        
+
+        <div class="frames-grid">
+
+          <div class="frames-card reveal"></div>
+
+          <div class="frames-card reveal"></div>
+
+          <div class="frames-card reveal"></div>
+          
+          <div class="frames-card reveal"></div>
+
+        </div>
+
+
+    </section> -->
 
     
     <!-- Frames Marquee -->
     <div class="marquee">
-      <h2 class="title" >Online Store <br> Coming Soon!</h2>
+      <!-- <h2 class="title" >Online Store <br> Coming Soon!</h2> -->
       <ul class="marquee-content">
 
 
@@ -319,7 +659,7 @@
 
 
 
-        
+
         <li><img src="./assets/img/bg/bg11.jpg" alt=""></li>
         <li><img src="./assets/img/bg/bg2.jpg" alt=""></li>
         <li><img src="./assets/img/bg/bg3.jpg" alt=""></li>
