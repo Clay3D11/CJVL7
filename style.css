@@ -56,16 +56,7 @@ body {
 
 
 
-/* Titles/Heading Styles */
-.title {
-  padding-top: 3em;
-  text-align: center;
-  text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc;
-  
-  font-size: 45px;
-  font-family: 'Times New Roman', Times, serif;
 
-}
 
 /* Header */
 .main-header {
@@ -156,12 +147,60 @@ body {
 
 
 
+/* BG letters */
+/* BG letters */
+.bg{
+  z-index: -1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h1{
+    color: rgb(2, 2, 255);
+    font-size: 20rem;
+    filter: opacity(0.5);
+    /* text-shadow: 0 0 20px #ffffff, 0 0 40px #001aff; */
+
+    text-shadow: 
+      -1px -1px 1px #efede3, 
+      0px 1px 0 #2e2e2e, 
+      0px 2px 0 #2c2c2c, 
+      0px 3px 0 #2a2a2a, 
+      0px 4px 0 #282828, 
+      0px 5px 0 #262626, 
+      0px 6px 0 #242424, 
+      0px 7px 0 #222, 
+      0px 8px 0 #202020, 
+      0px 9px 0 #1e1e1e, 
+      0px 10px 0 #1c1c1c, 
+      0px 11px 0 #1a1a1a, 
+      0px 12px 0 #181818, 
+      0px 13px 0 #161616, 
+      0px 14px 0 #141414, 
+      0px 15px 0 #121212,
+      2px 20px 5px rgba(0, 0, 0, 0.9),
+      5px 23px 5px rgba(0, 0, 0, 0.3),
+      8px 27px 8px rgba(0, 0, 0, 0.5),
+      8px 28px 35px rgba(0, 0, 0, 0.9);
+
+    
+    /* Modifued */
+    
+    
+    
+
+
+  }
+}
 
 
 
 
 
 /* Hero Section*/
+/* Hero Section*/
+
+
 .hero {
   height: 100vh;
   position: relative;
@@ -171,7 +210,6 @@ body {
   justify-content: center;
   text-align: center;
 }
-
 .hero-bg {
   position: absolute;
   top: 0;
@@ -209,18 +247,183 @@ body {
 
 }
 
+/* Hero Title/main Header */
+/* Titles/Heading Styles */
+
+.title {
+  /* padding-top: 3em; */
+  text-align: center;
+  text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc;
+  
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
 
 
 
 
 
-/* Cards */
+/* Main Content */
+/* Main Content */
+main {
+  
+  margin-left: 3em;
+  margin-right: 3em;
+
+
+  padding: 2rem .5rem;
+  margin-top: 5vh;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.062);
+  border: 1px solid rgba(255, 255, 255, 0.116);
+
+
+  
+}
+
+/* Important */
+/* Important */
+section {
+
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  /* margin-bottom: 4rem; */
+}
+
+section p {
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+}
 
 
 
 
-/* Main Page Cards */
-/* Main Page Cards */
+
+
+
+
+
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 80vh; */
+  height: 60%;
+  width: 100%;
+  /* padding: 2rem 1rem; */
+}
+
+.about-box {
+  width: 100%;
+  max-width: 850px;
+
+
+  padding: clamp(1.5rem, 4vw, 3rem);
+  
+  text-align: center;
+  
+  border: 2px solid #00eaff;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 25px rgba(0, 255, 251, 0.25);
+  color: #e7faff;
+}
+
+.about-box h1 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  text-shadow: 0 0 15px #00fffb, 0 0 35px #0081bc;
+}
+
+.about-box p {
+  font-size: 20px;
+  /* line-height: 1.75; */
+  /* font-size: clamp(0.95rem, 2.2vw, 1.2rem); */
+  /* margin-bottom: 1.2rem; */
+  color: #d7e9ff;
+}
+
+/* ✅ Improve spacing + readability on small screens */
+@media (max-width: 520px) {
+  .about-section {
+    /* padding: 1.5rem 1rem; */
+    min-height: auto;
+  }
+
+  .about-box {
+    border-width: 1.5px;
+    /* padding: 1.5rem; */
+  }
+
+  .about-box h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+  }
+}
+
+/* ✅ Ultra small screen support */
+@media (max-width: 360px) {
+  .about-box p {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Page Info-Cards */
+/* Main Page Info-Cards */
 
 .info-section {
   display: grid;
@@ -317,7 +520,6 @@ h1 > span > span {
         
 
 
-/* BTN */
 /* BTN */
 /* BTN */
 
@@ -422,48 +624,6 @@ h1 > span > span {
 
 
 
-/* Main Content */
-main {
-  
-  margin-left: 3em;
-  margin-right: 3em;
-
-
-  padding: 2rem .5rem;
-  margin-top: 5vh;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  backdrop-filter: blur(5px);
-  background-color: rgba(255, 255, 255, 0.062);
-  border: 1px solid rgba(255, 255, 255, 0.116);
-
-
-  
-}
-
-
-/* Important */
-section {
-
-  max-width: 100%;
-  margin: auto;
-  text-align: center;
-  /* margin-bottom: 4rem; */
-}
-
-section p {
-
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 1px;
-
-}
-
-
 .frames-grid {
   height: 200px;
   display: grid;
@@ -541,56 +701,6 @@ section p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Responsive font scaling */
-@media (max-width: 768px) {
-  .smoothMarquee {
-    font-size: 1rem;
-  }
-}
-@media (max-width: 480px) {
-  .smoothMarquee {
-    font-size: 0.9rem;
-  }
-}
-
-
 /* Footer */
 .main-footer {
   text-align: center;
@@ -599,6 +709,14 @@ section p {
   color: #aaa;
   font-size: 0.9rem;
 }
+
+
+
+
+
+
+
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -691,6 +809,12 @@ section p {
     /* padding: 2rem; */
     border-radius: 10px;
     transition: transform 0.3s ease;
+  }
+
+
+  /* Responsive font scaling */
+  .smoothMarquee {
+    font-size: 1rem;
   }
   
 
