@@ -634,33 +634,37 @@ h1 > span > span {
 }
 
 .frames-card {
-  background: #1c70e6fb;
+  background: #ffffff60;
   /* padding: 2rem; */
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
 
 .frames-grid :nth-child(1) {
-  background-image: url(./assets/img/bg/bg2.jpg);
+  background-image: url(./assets/img/art/34.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .frames-grid :nth-child(2) {
-  background-image: url(./assets/img/bg/bg3.jpg);
-  background-position: fixed;
-  background-size: cover;
+  background-image: url(./assets/img/art/35.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .frames-grid :nth-child(3) {
-  background-image: url(./assets/img/bg/bg4.jpg);
+  background-image: url(./assets/img/art/36.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .frames-grid :nth-child(4) {
-  background-image: url(./assets/img/bg/bg6.jpg);
+  background-image: url(./assets/img/art/37.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
@@ -805,7 +809,7 @@ h1 > span > span {
   }
 
   .frames-card {
-    background: #1c70e6fb;
+    background: #002fff8e;
     /* padding: 2rem; */
     border-radius: 10px;
     transition: transform 0.3s ease;
