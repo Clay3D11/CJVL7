@@ -641,27 +641,27 @@ h1 > span > span {
 }
 
 .frames-grid :nth-child(1) {
-  background-image: url(./assets/img/art/34.png);
+  background-image: url(./assets/img/art/34.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .frames-grid :nth-child(2) {
-  background-image: url(./assets/img/art/35.png);
+  background-image: url(./assets/img/art/35.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .frames-grid :nth-child(3) {
-  background-image: url(./assets/img/art/36.png);
+  background-image: url(./assets/img/art/36.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .frames-grid :nth-child(4) {
-  background-image: url(./assets/img/art/37.png);
+  background-image: url(./assets/img/art/37.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
