@@ -333,7 +333,7 @@ section p {
 
   padding: clamp(1.5rem, 4vw, 3rem);
   
-  text-align: center;
+  /* text-align: center; */
   
   border: 2px solid #00eaff;
   border-radius: 16px;
@@ -358,6 +358,8 @@ section p {
   color: #d7e9ff;
   padding-left: 3em;
   padding-right: 3em;
+
+  text-align: center;
 }
 
 @media (max-width: 768px) {
