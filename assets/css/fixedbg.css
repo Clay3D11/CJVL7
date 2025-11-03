@@ -1,0 +1,154 @@
+/* @import "compass/css3"; */
+
+/* html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+header a {
+  color: white;
+  background: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 0px 30px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+} */
+
+
+
+#hero1bg {
+
+
+  background: url(../img/art/10.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+
+
+
+}
+#hero2bg {
+  background: url(../img/art/10.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+  filter:  hue-rotate(80deg);
+  -webkit-filter:  hue-rotate(80deg);
+}
+
+
+.hero1bg, .content {
+
+
+
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+
+
+.inner {
+
+  /* background: url(../img/lucy\ Gold.png);
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed; */
+
+
+
+  padding-top: 2em;
+  min-height: 200px;
+  position: relative;
+}
+
+
+
+
+.hero .inner {
+
+  /* background: rgb(255, 5, 5) url(../img/lucy\ Gold.png) repeat; */
+
+
+  background: url();
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+
+
+}
+.hero .inner2 {
+  /*background: rgb(255, 5, 5) url(../img/lucy\ Gold.png) repeat;
+  */background: url();
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+  
+}
+
+
+
+
+
+
+.copy {
+  /* position: absolute; */
+  /* top: 50%;
+  right: 50%; */
+  /* height: 10em; */
+  /* margin-top: -5em; */
+  width: 600px;
+  height: 300px;
+
+}
+
+
+
+/* .hero h1,
+.hero p {
+  color: #fff;
+}
+
+.content h1,
+.content p {
+  color: #333;
+} */
+
+
+
+
+.fixedbg {
+  /* margin: 0px; */
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 62px;
+  /* padding: 0px 20px; */
+
+  
+  padding: auto;
+
+}
+
