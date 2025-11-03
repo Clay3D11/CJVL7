@@ -79,12 +79,13 @@ body {
 
 /* .logo span { color: #0d00ff; } */
 .logo span { 
-  background-image: url(./assets/img/eyelooping.gif);
+  background-image: url(./assets/img/gif/eyelooping.gif);
   background-position: center;
   background-size: cover;
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+
 
 }
 
@@ -134,7 +135,7 @@ body {
   font-size: 2.8rem;
   cursor: pointer;
 
-  background-image: url(./assets/img/eyelooping.gif);
+  background-image: url(./assets/img/gif/eyelooping.gif);
   background-position: center;
   background-size: cover;
   color: transparent;
@@ -355,7 +356,18 @@ section p {
   /* font-size: clamp(0.95rem, 2.2vw, 1.2rem); */
   /* margin-bottom: 1.2rem; */
   color: #d7e9ff;
+  padding-left: 3em;
+  padding-right: 3em;
 }
+
+@media (max-width: 768px) {
+  .about-box p {
+    padding-left: 0em;
+  padding-right: 0em;
+  }
+}
+
+
 
 /* ✅ Improve spacing + readability on small screens */
 @media (max-width: 520px) {
