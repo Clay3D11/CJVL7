@@ -58,6 +58,64 @@ body {
 
 
 
+
+
+
+/* Hide scrollbar for Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+* {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE & older browsers */
+* {
+  -ms-overflow-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Header */
 .main-header {
   display: flex;

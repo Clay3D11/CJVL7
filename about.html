@@ -168,6 +168,7 @@
           <span>'</span>
           <span>Frontend Developer</span>
           <span>Game Developer</span>
+          <span>Graphic Designer</span>
           <span>3D Artist</span>
           <span>Video Edditor</span>
         </span>
@@ -191,45 +192,60 @@
         }
         @keyframes animateWords {
           0% {transform: translateY(0%);}
-          25% {transform: translateY(-100%);}
-          50% {transform: translateY(-200%);}
-          75% {transform: translateY(-300%);}
-          100% {transform: translateY(-400%);}
+          20% {transform: translateY(-100%);}
+          40% {transform: translateY(-200%);}
+          60% {transform: translateY(-300%);}
+          80% {transform: translateY(-400%);}
+          100% {transform: translateY(-500%);}
           0% {transform: translateY(0%);}
 
         }
+
+        /* Responsive */
+        /* Responsive */
+        @media (max-width: 768px) {
+          h1 > span {
+            font-size: 24px;
+            font-weight: 900;
+            height: 1.30em;
+             text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc; 
+
+          }
+           @keyframes animateWords {
+          0% {transform: translateY(0%);}
+          20% {transform: translateY(-100%);}
+          40% {transform: translateY(-200%);}
+          60% {transform: translateY(-300%);}
+          80% {transform: translateY(-400%);}
+          100% {transform: translateY(-500%);}
+          0% {transform: translateY(0%);}
+
+        }
+          
+        }
       </style>
-     
 
-     <!-- Resume BTN -->
-     <!-- Resume BTN -->
-      <abbr title="PDF/Resume">
-        <a class="resume" href="./assets/resume.pdf" target="_blank"target="_blank">
-          
-          <button class="shadow__btn" >▶<i class="fa fa-file-text" aria-hidden="true"></i>◀</button>
-          
-          
-
-
-          </i>
-        </a>
-      </abbr>
-
-
-
-
-
-
-
-
-
-      <br>
-      <br>
 
       <button class="primary" onclick="window.dialog.showModal();">Resume</button>
       <dialog id="dialog">
 
-        <h2>Read!!!!</h2>
+        <!-- Resume BTN -->
+        <!-- Resume BTN -->
+        <abbr title="PDF/Resume">
+          <a class="resume" href="./assets/resume.pdf" target="_blank"target="_blank">
+            
+            <button class="shadow__btn" >
+              <!-- ▶<i class="fa fa-file-text" aria-hidden="true"></i>◀ -->
+              PDF
+            </button>
+            
+            
+
+
+            </i>
+          </a>
+        </abbr>
+    
 
         <!-- <p>A CSS-only modal based on the <a href="https://developer.mozilla.org/es/docs/Web/CSS/::backdrop" target="_blank">::backdrop</a> pseudo-class. Hope you find it helpful.</p> -->
 
@@ -251,42 +267,33 @@
 
         <div id="portfolio">
             <!-- header -->
-            <img src="/CJVL7/assets/img/cv/clay.jpg" alt="Profile Picture" class="photo" width="220px">
-            <h1 class="name">Clainer Ventura</h1>
+            <img src="/CJVL7/assets/img/nobg/kk.png" alt="Profile Picture" class="photo" width="220px">
+            <!-- <h1 class="name">Clainer Ventura</h1> -->
             <!-- <h4 class="position">UI/UX Designer  Front-endDeveloper</h4> -->
-            <li class="resumetitle" >
-              <h1>Frontend Dev</h1>
-              <h1>UI/UX Designer</h1>
-              <h1>Game Dev</h1>
-              <h1>3D Artist</h1>
-              <h1>Video Editor</h1>
-            </li>
+            <h1>
+              <span>
+                <span>'</span>
+                <span>Frontend Developer</span>
+                <span>Game Developer</span>
+                <span>Graphic Designer</span>
+                <span>3D Artist</span>
+                <span>Video Edditor</span>
+              </span>
+            </h1>
+
+
+            <!-- <li class="resumetitle" >
+            </li> -->
 
             <div class="contactBox flex">
 
 
-                <a class="resume" href="./assets/resume.pdf" target="_blank"target="_blank">
-
-                  <button class="btn">
-
-                    <div class="email flex">
-
-
-
-                      <i class="fa fa-file-text" aria-hidden="true"><h3>Download <br> Resume</h3></i>
-                      <!-- <img src="./assets/img/icons/linkedin.png" width="30px"> -->
-                      <!-- <p>v.clainer11@gmail.com</p> -->
-
-                    </div>
-
-                  </button>
-
-                </a>
+                
 
 
                 <div class="location flex">
                     <!-- <img src="./Assets/location.svg" width="30px"> -->
-                    <p>New York</p>
+                    <!-- <p>New York N.Y</p> -->
                 </div>
 
 
@@ -304,26 +311,32 @@
             <div class="contentBox flex">
                 <div class="left">
                     <div class="about">
-                        <h4>About me:</h4>
-                        <p>I am a freelance web developer. My service is to technically implement websites and web app interfaces. I specialize in designing and building responsive websites, ensuring optimal user experience across various devices and browsers.</p>
+                        <h4>Career:</h4>
+                        <p>Visual creator with experience in Frontend programming, 3D art, graphic design, UI/UX, and video editing. <br> <br></p>
+                        <h4>Focused On:</h4>
+                        <p>Innovation, collaboration, and continuous growth.</p>
                     </div>
+                    <br>
 
 
                     
                     
                     <div class="exp">
                         <h4>Experience</h4>
-                        <h5>Web Developer</h5>
+
+                        <h5>Frontend Developer</h5>
                         <span></span>
-                        <p>Under/Revisions</p>
+                        <p>Game-Developer</p>
+
+
                         <h5>UI/UX Designer</h5>
                         <span></span>
-                        <p>Under/Revisions</p>
+                        <p>3D Artist</p>
 
-                        <!-- <h5>Graphic Designer</h5>
-                            <span></span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ea at, enim vitae nihil tempora molestias nobis.</p> -->
-                        </div>
+                        <h5>Graphic Designer</h5>
+                        <span></span>
+                        <p>Video Edditor.</p>
+                    </div>
                         
                         <!-- <div class="edu">
                             <h4>Education</h4>
@@ -338,45 +351,72 @@
 
                 <div class="right">
 
-                    <h4>Skills & Softwares</h4>
+                  <a class="resume" href="./assets/resume.pdf" target="_blank"target="_blank">
 
-                    <div class="DSBox">
+                  <button class="btn" style="position: static;">
 
-                        <h5>Designing Softwares</h5>
+                    <div class="email flex">
 
-                        <div class="DSNames">
-                            <!-- <p>Adobe Photoshop</p>
-                            <p>Adobe Illustrator</p>
-                            <p>Adobe XD</p> -->
-                            <p>Figma</p>
-                            <p>Web Flow</p>
-                            <p>SquareSpace</p>
-                            <p>Canvas</p>
-                        </div>
+
+
+                      <i class="fa fa-file-text" aria-hidden="true"><h3>Download <br> Resume</h3></i>
+                      <!-- <img src="./assets/img/icons/linkedin.png" width="30px"> -->
+                      <!-- <p>v.clainer11@gmail.com</p> -->
 
                     </div>
 
-                    <div class="LBox">
-                        <h5>Languages</h5>
-                        <div class="LNames">
-                            <p>VS Code</p>
-                            <p>HTML</p>
-                            <p>CSS</p>
-                            <p>JavaScript</p>
-                            <!-- <p>Python</p>
-                            <p>C#</p> -->
-                        </div>
-                    </div>
-                    <!-- <div class="ESBox">
-                        <h5>Editing Softwares</h5>
-                        <div class="ESNames">
-                            <p>Filmora</p>
-                            <p>Adobe Premiere</p>
-                            <p>Adobe After Effects</p>
-                            <p>CapCut</p>
-                        </div>
-                    </div> -->
+                  </button>
+
+                  </a>
+
+
+
+
+                  <!-- <h4>Skills & Softwares</h4>
+
+                  <div class="DSBox">
+
+                      <h5>Designing Softwares</h5>
+
+                      <div class="DSNames">
+                          <p>Adobe Photoshop</p>
+                          <p>Adobe Illustrator</p>
+                          <p>Adobe XD</p>
+                          <p>Figma</p>
+                          <p>Web Flow</p>
+                          <p>SquareSpace</p>
+                          <p>Canvas</p>
+                      </div>
+
+                  </div>
+
+                  <div class="LBox">
+                      <h5>Languages</h5>
+                      <div class="LNames">
+                          <p>VS Code</p>
+                          <p>HTML</p>
+                          <p>CSS</p>
+                          <p>JavaScript</p>
+                          <p>Python</p>
+                          <p>C#</p>
+                      </div>
+                  </div>
+
+
+                  <div class="ESBox">
+                      <h5>Editing Softwares</h5>
+                      <div class="ESNames">
+                          <p>Filmora</p>
+                          <p>Adobe Premiere</p>
+                          <p>Adobe After Effects</p>
+                          <p>CapCut</p>
+                      </div>
+                  </div> -->
+
+
                 </div>
+
+                
             </div>
         </div>
         
