@@ -30,6 +30,7 @@
   <link rel="stylesheet" href="./assets/css/devresume.css">
 
 
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
   <!-- Icon Links -->
@@ -239,9 +240,18 @@
         <abbr title="PDF/Resume">
           <a class="resume" href="./assets/resume.pdf" target="_blank"target="_blank">
             
-            <button class="shadow__btn" >
-              <!-- ▶<i class="fa fa-file-text" aria-hidden="true"></i>◀ -->
-              PDF
+            <button class="btn" style="position: static;">
+              
+              <div class="email flex">
+                
+                
+                
+                <i class="fa fa-file-text" aria-hidden="true"><h3>Resume</h3></i>
+                <!-- <img src="./assets/img/icons/linkedin.png" width="30px"> -->
+                <!-- <p>v.clainer11@gmail.com</p> -->
+                
+              </div>
+              
             </button>
             
             
@@ -271,88 +281,192 @@
     </div> -->
 
         <div id="portfolio">
-            <!-- header -->
+              <!-- header -->
 
-            <!-- <img src="/CJVL7/assets/img/nobg/kk.png" alt="Profile Picture" class="photo" width="220px"> -->
+              <!-- <img src="/CJVL7/assets/img/nobg/kk.png" alt="Profile Picture" class="photo" width="220px"> -->
 
-            <!-- <h1 class="name">Clainer Ventura</h1> -->
+              <!-- <h1 class="name">Clainer Ventura</h1> -->
 
-            <!-- <h4 class="position">UI/UX Designer  Front-endDeveloper</h4> -->
+              <!-- <h4 class="position">UI/UX Designer  Front-endDeveloper</h4> -->
 
-            <h1>
-              <span>
-                <span>'</span>
-                <span>Frontend Developer</span>
-                <span>Game Developer</span>
-                <span>Graphic Designer</span>
-                <span>3D Artist</span>
-                <span>Video Edditor</span>
-              </span>
-            </h1>
+              <h1>
+                <span>
+                  <span>'</span>
+                  <span>Frontend Developer</span>
+                  <span>Game Developer</span>
+                  <span>Graphic Designer</span>
+                  <span>3D Artist</span>
+                  <span>Video Edditor</span>
+                </span>
+              </h1>
+              <style>
+                h1 > span {
+                  position: relative;
+                  display: inline-block;
+                  color: rgb(255, 255, 255);
+                  height: 1.25em;
+                  vertical-align: bottom;
+                  overflow: hidden;
+
+                  /* text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc;  */
+
+                }
+
+                h1 > span > span {
+                  display: block;
+                  animation: animateWords 8s infinite ease;
+                }
+                @keyframes animateWords {
+                  0% {transform: translateY(0%);}
+                  20% {transform: translateY(-100%);}
+                  40% {transform: translateY(-200%);}
+                  60% {transform: translateY(-300%);}
+                  80% {transform: translateY(-400%);}
+                  100% {transform: translateY(-500%);}
+                  0% {transform: translateY(0%);}
+
+                }
+
+                /* Responsive */
+                /* Responsive */
+                @media (max-width: 768px) {
+                  h1 > span {
+                    font-size: 24px;
+                    font-weight: 900;
+                    height: 1.30em;
+                    text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc; 
+
+                  }
+                  @keyframes animateWords {
+                  0% {transform: translateY(0%);}
+                  20% {transform: translateY(-100%);}
+                  40% {transform: translateY(-200%);}
+                  60% {transform: translateY(-300%);}
+                  80% {transform: translateY(-400%);}
+                  100% {transform: translateY(-500%);}
+                  0% {transform: translateY(0%);}
+
+                }
+                  
+                }
+              </style>
 
 
-            <!-- <li class="resumetitle" >
-            </li> -->
+              <!-- <li class="resumetitle" >
+              </li> -->
 
-            <div class="contactBox flex">
-
-
-                
+              <!-- <div class="contactBox flex">
 
 
                 <div class="location flex">
-                    <!-- <img src="./Assets/location.svg" width="30px"> -->
-                    <!-- <p>New York N.Y</p> -->
+                    <img src="./Assets/location.svg" width="30px">
+                    <p>New York N.Y</p>
                 </div>
 
 
-                <!-- <div class="phone flex">
+                <div class="phone flex">
                     <img src="./Assets/phone.svg" width="18px">
                     <p>000+0000+0000</p>
-                </div> -->
+                </div>
 
 
-            </div>
+              </div> -->
 
-            <div class="line"></div>
+              <!-- <div class="line"></div> -->
 
-            <!-- content -->
-            <div class="contentBox flex">
+              <hr class="aqua-neon">
+
+
+
+
+
+
+              <!-- content -->
+              <div class="contentBox flex">
+
                 <div class="left">
-                    <div class="about">
-                        <h4>Career:</h4>
-                        <p>Visual creator with experience in Frontend programming, 3D art, graphic design, UI/UX, and video editing. <br> <br></p>
-                        <h4>Focused On:</h4>
-                        <p>Innovation, collaboration, and continuous growth.</p>
-                    </div>
+
+                  <div class="about">
+                      <h4>Career:</h4> 
+                      <p>Innovative programmer blending technical development with visual design — specializing in frontend programming, game development, 3D digital art, UI/UX, graphic design, and cinematic video editing to craft memorable digital experiences. <br><br></p>
+                      <!-- <h4>Focused On:</h4> 
+                      <p>Innovation, collaboration, and continuous growth.</p> -->
+                  </div>
+
+                  <br>
+
+                  <div class="exp">
+                      <h4>Experience:</h4> 
+
+                      <fieldset style="border: 0px; ">
+                      <p>FrontendDeveloper</p> <br> 
+                      <p>Game Developer</p> <br> 
+                      <p>UX/UI Designer</p> <br> 
+                      <p>3D Artist</p> <br> 
+                      <p>Video Editorr</p> <br> 
+
+                      </fieldset>
+
+
+                      <!-- <h5>Frontend Developer</h5>
+                      <span></span>
+                      <p>Game-Developer</p>
+
+
+                      <h5>UI/UX Designer</h5>
+                      <span></span>
+                      <p>3D Artist</p>
+
+                      <h5>Graphic Designer</h5>
+                      <span></span>
+                      <p>Video Edditor.</p> -->
+                  </div>
+
+                  <br>
+
+                  <div class="about">
+
+                    <h4>Education:</h4> 
+
+                    <h5>BMCC - (2010-2014)</h5>
+                    <p><span class="neon-bullet">●</span>Completed 65 credits toward Bachelor of Criminal Justice. </p>
+                    <br>
                     <br>
 
 
+                    <h5>CODE_CADEMI - (2019-Present) <br> </h5>
+                    <p><span class="neon-bullet">●</span>Completed multiple front-end & Back-end development courses in HTML, CSS, JavaScript. </p>
+                    <br>
+                    <br>
+
+
+                    <h5>CLASS CENTRAL - (2019-2024) </h5>
+                    <fieldset class="neon-list" style=" border: 0px; color: #fff; font-weight: 400; text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc;">
+                      <ul class="neon-list">
+                        <li>IBM</li>
+                        <li>Google</li>
+                        <li>Coursera</li>
+                        <li>Udemy</li>
+                      </ul>
+                    </fieldset>
+                    <p><span class="neon-bullet">●</span>Built and deployed responsive web applications. Gained hands-on experience with modern frameworks and best practices.</p>
+                    <br>
+                    <br>
+
                     
-                    
-                    <div class="exp">
-                        <h4>Experience</h4>
-
-                        <h5>Frontend Developer</h5>
-                        <span></span>
-                        <p>Game-Developer</p>
 
 
-                        <h5>UI/UX Designer</h5>
-                        <span></span>
-                        <p>3D Artist</p>
+                    <!-- <h4>Focused On:</h4> 
+                    <p>Innovation, collaboration, and continuous growth.</p> -->
 
-                        <h5>Graphic Designer</h5>
-                        <span></span>
-                        <p>Video Edditor.</p>
-                    </div>
-                        
-                        <!-- <div class="edu">
-                            <h4>Education</h4>
-                            <h5>BMCC</h5>
-                            <span></span>
-                            <p>BA, Criminal Justice, 2014</p>
-                        </div> -->
+                  </div>
+                      
+                  <!-- <div class="edu">
+                          <h4>Education</h4>
+                          <h5>BMCC</h5>
+                          <span></span>
+                          <p>BA, Criminal Justice, 2014</p>
+                      </div> -->
 
                 </div>
 
@@ -360,59 +474,61 @@
 
                 <div class="right">
 
-                  <a class="resume" href="./assets/resume.pdf" target="_blank"target="_blank">
-
-                  <button class="btn" style="position: static;">
-
-                    <div class="email flex">
+                  
 
 
-
-                      <i class="fa fa-file-text" aria-hidden="true"><h3>Download <br> Resume</h3></i>
-                      <!-- <img src="./assets/img/icons/linkedin.png" width="30px"> -->
-                      <!-- <p>v.clainer11@gmail.com</p> -->
-
-                    </div>
-
-                  </button>
-
-                  </a>
-
-
-
-
-                  <!-- <h4>Skills & Softwares</h4>
-
+                  <h4>Skills & Softwares:</h4>
+                  
                   <div class="DSBox">
 
-                      <h5>Designing Softwares</h5>
+                      <!-- <h5>Softwares</h5> -->
+                      
 
                       <div class="DSNames">
-                          <p>Adobe Photoshop</p>
-                          <p>Adobe Illustrator</p>
-                          <p>Adobe XD</p>
-                          <p>Figma</p>
-                          <p>Web Flow</p>
-                          <p>SquareSpace</p>
-                          <p>Canvas</p>
+                          <!-- <h5>Programmer</h5> -->
+
+
+                          <h5>FRONTEND DEVELOPER:</h5>
+                          <p>Vs Code</p>
+                          <p>HTML</p>
+                          <p>CSS</p>
+                          <p>Java Script</p>
+                          <p>React</p>
+
+
+                          <h5>GAME DEVELOPER:</h5>
+                          <p>Epic Game</p>
+                          <p>Unreal Engine</p>
+
+
+                          <h5>3D ARTIST & UX/UI DESIGNER:</h5>
+                          <p>Adove clout</p>
+                          <p>After Effects</p>
+                          <p>Premier Pro</p>
+                          <p>PhotoShop</p>
+                          
+                          <h5>VIDEO EDDITOR:</h5>
+                          <p>After Effects</p>
+                          <p>Premier Pro</p>
                       </div>
 
                   </div>
 
-                  <div class="LBox">
-                      <h5>Languages</h5>
+
+                  <!-- <div class="LBox">
+                      <h4>Software</h4>
                       <div class="LNames">
                           <p>VS Code</p>
                           <p>HTML</p>
                           <p>CSS</p>
                           <p>JavaScript</p>
-                          <p>Python</p>
-                          <p>C#</p>
+                          <p></p>
+                          
                       </div>
-                  </div>
+                  </div> -->
 
 
-                  <div class="ESBox">
+                  <!-- <div class="ESBox">
                       <h5>Editing Softwares</h5>
                       <div class="ESNames">
                           <p>Filmora</p>
@@ -424,10 +540,9 @@
 
 
                 </div>
-
-                
-            </div>
-        </div>
+                  
+              </div>
+          </div>
         
 
 
