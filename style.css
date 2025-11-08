@@ -137,12 +137,17 @@ body {
 
 /* .logo span { color: #0d00ff; } */
 .logo span { 
-  background-image: url(./assets/img/gif/eyelooping.gif);
+  /* background-image: url(./assets/img/gif/eyelooping.gif);
   background-position: center;
   background-size: cover;
   color: transparent;
   background-clip: text;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; */
+
+  color: #fff;
+
+  text-shadow: 0 0 20px #00fffb, 0 0 40px #001aff;
+
 
 
 }
@@ -189,16 +194,21 @@ body {
 
 .menu-toggle {
   display: none;
-  color: #1100ff;
+  color: #ffffff;
   font-size: 2.8rem;
   cursor: pointer;
 
-  background-image: url(./assets/img/gif/eyelooping.gif);
+  text-shadow: 0 0 20px #00fffb, 0 0 40px #001aff;
+
+
+
+
+  /* background-image: url(./assets/img/gif/eyelooping.gif);
   background-position: center;
   background-size: cover;
   color: transparent;
   background-clip: text;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; */
 
 
 
@@ -807,13 +817,9 @@ h1 > span > span {
       position: absolute;
       top: 60px;
       right: 0;
-      width: 400px;
+      width: 100%;
       height: 450px;
-      border-radius: 5px;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-      -o-border-radius: 5px;
+      
 
 
       /*Modified*/
@@ -857,7 +863,7 @@ h1 > span > span {
     font-size: 20px;
   } */
 
-  .navbar ul.active { display: flex; }
+  .navbar ul.active { display: flex; width: 100%;}
 
   .menu-toggle { display: block; }
 
@@ -911,7 +917,6 @@ h1 > span > span {
 
   }
 }
-
 
 
 
