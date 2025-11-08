@@ -2,6 +2,9 @@ var sliderIndex = 0;
 var sliderItems = [
     "Clainer Ventura",
     "Frontend Dev",
+    "Game Dev",
+    "UX/UI & Graphics ",
+    "Designer",
     "3D Artist",
     "Video Edditor",
 
