@@ -288,12 +288,12 @@ body {
   padding: 0 2rem;
 }
 
-.hero-content h1 {
+/* .hero-content h1 {
   font-size: 2.8rem;
   color: #fff;
-}
+} */
 
-.hero-content h1 span { color: #0d00ff; }
+/* .hero-content h1 span { color: #0d00ff; } */
 
 .hero-content p {
   margin-top: 1rem;
@@ -359,9 +359,13 @@ section {
 section p {
 
   font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
+  line-height: 25px;
+
+  padding-left: 10px;
+  padding-right: 10px;
 
 }
 
@@ -568,11 +572,11 @@ h1 > span {
   position: relative;
   display: inline-block;
   /* color: rgb(255, 255, 255); */
-  height: 1.25em;
+  /* height: 1.25em; */
   vertical-align: bottom;
   overflow: hidden;
 
-  text-shadow: 0 0 5px #0836ff, 0 0 10px #0004ff; 
+  text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc;
 
 }
 

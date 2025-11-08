@@ -23,6 +23,13 @@
     <link rel="stylesheet" href="./assets/css/about.css">
     <link rel="stylesheet" href="./assets/css/videoedits.css">
 
+    <link rel="stylesheet" href="./assets/css/devresume.css">
+    <link rel="stylesheet" href="./assets/css/">
+
+
+
+
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
     <!-- Icon Links -->
@@ -158,27 +165,348 @@
 
         <!-- <h1 class="fade-in"><span>Clainer Ventura</span></h1> -->
 
-        <p class="fade-in delay" class="neon">Frontend/Game Developer & 3D Artist</p>
+        <p class="fade-in delay" class="neon">Programmer</p>
         <!-- <p class="fade-in delay">Programmer</p> -->
         <br>
         <br>
-        <h3>Programmer</h3>
+        <!-- <h3>Programmer</h3> -->
         
       
 
         <!-- <a href="#projects" class="btn fade-in delay-2">View My Work</a> -->
-        <button class="primary" onclick="window.dialog.showModal();">Projects</button>
+        <button class="primary" onclick="window.dialog.showModal();">Resume</button>
 
+        <dialog id="dialog">
+
+          <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
+
+
+          <a class="resume" href="./assets/resume.pdf" 
+          target="_blank"target="_blank">
+            
+            <button class="btn" style="position: static;">
+              
+              <div class="email flex">
+                
+                
+                
+                <i class="fa fa-file-text" aria-hidden="true"><h3>Download <br> Resume</h3></i>
+                <!-- <img src="./assets/img/icons/linkedin.png" width="30px"> -->
+                <!-- <p>v.clainer11@gmail.com</p> -->
+                
+              </div>
+              
+            </button>
+            
+          </a>
+          
+
+
+          <!-- Dev Resume -->
+          <!-- Dev Resume -->
+          <!-- Dev Resume -->
+
+          <!-- <div class="bgSVGs">
+          <img src="./Assets/bg1.svg">
+          <img src="./Assets/bg2.svg">
+      </div> -->
+
+          <div id="portfolio">
+              <!-- header -->
+
+              <!-- <img src="/CJVL7/assets/img/nobg/kk.png" alt="Profile Picture" class="photo" width="220px"> -->
+
+              <!-- <h1 class="name">Clainer Ventura</h1> -->
+
+              <!-- <h4 class="position">UI/UX Designer  Front-endDeveloper</h4> -->
+
+              <h1>
+                <span>
+                  <span>'</span>
+                  <span>Frontend Developer</span>
+                  <span>Game Developer</span>
+                  <span>Graphic Designer</span>
+                  <span>3D Artist</span>
+                  <span>Video Edditor</span>
+                </span>
+              </h1>
+              <style>
+                h1 > span {
+                  position: relative;
+                  display: inline-block;
+                  color: rgb(255, 255, 255);
+                  height: 1.25em;
+                  vertical-align: bottom;
+                  overflow: hidden;
+
+                  /* text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc;  */
+
+                }
+
+                h1 > span > span {
+                  display: block;
+                  animation: animateWords 8s infinite ease;
+                }
+                @keyframes animateWords {
+                  0% {transform: translateY(0%);}
+                  20% {transform: translateY(-100%);}
+                  40% {transform: translateY(-200%);}
+                  60% {transform: translateY(-300%);}
+                  80% {transform: translateY(-400%);}
+                  100% {transform: translateY(-500%);}
+                  0% {transform: translateY(0%);}
+
+                }
+
+                /* Responsive */
+                /* Responsive */
+                @media (max-width: 768px) {
+                  h1 > span {
+                    font-size: 24px;
+                    font-weight: 900;
+                    height: 1.30em;
+                    text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc; 
+
+                  }
+                  @keyframes animateWords {
+                  0% {transform: translateY(0%);}
+                  20% {transform: translateY(-100%);}
+                  40% {transform: translateY(-200%);}
+                  60% {transform: translateY(-300%);}
+                  80% {transform: translateY(-400%);}
+                  100% {transform: translateY(-500%);}
+                  0% {transform: translateY(0%);}
+
+                }
+                  
+                }
+              </style>
+
+
+              <!-- <li class="resumetitle" >
+              </li> -->
+
+              <!-- <div class="contactBox flex">
+
+
+                <div class="location flex">
+                    <img src="./Assets/location.svg" width="30px">
+                    <p>New York N.Y</p>
+                </div>
+
+
+                <div class="phone flex">
+                    <img src="./Assets/phone.svg" width="18px">
+                    <p>000+0000+0000</p>
+                </div>
+
+
+              </div> -->
+
+              <!-- <div class="line"></div> -->
+
+              <hr class="aqua-neon">
+
+
+
+
+
+
+              <!-- content -->
+              <div class="contentBox flex">
+
+                <div class="left">
+
+                  <div class="about">
+                      <h4>Career:</h4> 
+                      <p>Innovative programmer blending technical development with visual design — specializing in frontend programming, game development, 3D digital art, UI/UX, graphic design, and cinematic video editing to craft memorable digital experiences. <br><br></p>
+                      <!-- <h4>Focused On:</h4> 
+                      <p>Innovation, collaboration, and continuous growth.</p> -->
+                  </div>
+
+                  <br>
+
+                  <div class="exp">
+                      <h4>Experience:</h4> <br>
+
+                      <fieldset style="border: 0px; text-align: center;">
+                      <p>Frontend Developer</p> <br>
+                      <p>Game Developer</p> <br>
+                      <p>UX/UI Designer</p> <br>
+                      <p>3D Artist</p> <br>
+                      <p>Frontend Developer</p> <br>
+
+                      </fieldset>
+
+
+                      <!-- <h5>Frontend Developer</h5>
+                      <span></span>
+                      <p>Game-Developer</p>
+
+
+                      <h5>UI/UX Designer</h5>
+                      <span></span>
+                      <p>3D Artist</p>
+
+                      <h5>Graphic Designer</h5>
+                      <span></span>
+                      <p>Video Edditor.</p> -->
+                  </div>
+
+                  <br>
+
+                  <div class="about">
+
+                    <h4>Education:</h4> 
+
+                    <h5>BMCC - (2010-2014)</h5>
+                    <p><span class="neon-bullet">●</span>Completed 65 credits toward Bachelor of Criminal Justice. </p>
+
+
+                    <h5>CODE_CADEMI - (2019-Present) <br> </h5>
+                    <p><span class="neon-bullet">●</span>Completed multiple front-end & Back-end development courses in HTML, CSS, JavaScript. </p>
+
+
+                    <h5>CLASS CENTRAL - (2019-2024) </h5>
+                    <fieldset class="neon-list" style=" border: 0px; color: #fff; font-weight: 400; text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc;">
+                      <ul class="neon-list">
+                        <li>IBM</li>
+                        <li>Google</li>
+                        <li>Coursera</li>
+                        <li>Udemy</li>
+                      </ul>
+                    </fieldset>
+                    <p><span class="neon-bullet">●</span>Built and deployed responsive web applications. Gained hands-on experience with modern frameworks and best practices.</p>
+                    
+                    
+
+                    
+
+
+
+
+                    
+
+
+                    <!-- <h4>Focused On:</h4> 
+                    <p>Innovation, collaboration, and continuous growth.</p> -->
+
+                  </div>
+                      
+                  <!-- <div class="edu">
+                          <h4>Education</h4>
+                          <h5>BMCC</h5>
+                          <span></span>
+                          <p>BA, Criminal Justice, 2014</p>
+                      </div> -->
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="right">
+
+                  
+
+
+                  <h4>Skills & Softwares:</h4>
+                  
+                  <div class="DSBox">
+
+                      <!-- <h5>Softwares</h5> -->
+                      
+
+                      <div class="DSNames">
+                          <!-- <h5>Programmer</h5> -->
+
+
+                          <h5>FRONTEND DEVELOPER:</h5>
+                          <p>Vs Code</p>
+                          <p>HTML</p>
+                          <p>CSS</p>
+                          <p>Java Script</p>
+                          <p>React</p>
+
+
+                          <h5>GAME DEVELOPER:</h5>
+                          <p>Epic Game</p>
+                          <p>Unreal Engine</p>
+
+
+                          <h5>3D ARTIST & UX/UI DESIGNER:</h5>
+                          <p>Adove clout</p>
+                          <p>After Effects</p>
+                          <p>Premier Pro</p>
+                          <p>PhotoShop</p>
+                          
+                          <h5>VIDEO EDDITOR:</h5>
+                          <p>After Effects</p>
+                          <p>Premier Pro</p>
+                      </div>
+
+                  </div>
+
+
+                  <!-- <div class="LBox">
+                      <h4>Software</h4>
+                      <div class="LNames">
+                          <p>VS Code</p>
+                          <p>HTML</p>
+                          <p>CSS</p>
+                          <p>JavaScript</p>
+                          <p></p>
+                          
+                      </div>
+                  </div> -->
+
+
+                  <!-- <div class="ESBox">
+                      <h5>Editing Softwares</h5>
+                      <div class="ESNames">
+                          <p>Filmora</p>
+                          <p>Adobe Premiere</p>
+                          <p>Adobe After Effects</p>
+                          <p>CapCut</p>
+                      </div>
+                  </div> -->
+
+
+                </div>
+                  
+              </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- <h2>PDF Format</h2>
+
+          <p>A CSS-only modal based on the <a href="https://developer.mozilla.org/es/docs/Web/CSS/::backdrop" target="_blank">::backdrop</a> pseudo-class. Hope you find it helpful.</p>
+
+          <p>You can also change the styles of the <code>::backdrop</code> from the CSS.</p> -->
+
+
+        </dialog>
 
 
       </div>
       
-      <dialog id="dialog">
-        <h2>Read!!!!</h2>
-        <p>A CSS-only modal based on the <a href="https://developer.mozilla.org/es/docs/Web/CSS/::backdrop" target="_blank">::backdrop</a> pseudo-class. Hope you find it helpful.</p>
-        <p>You can also change the styles of the <code>::backdrop</code> from the CSS.</p>
-        <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
-      </dialog>
+
+
+      
+      
 
 
     </section>
@@ -205,6 +533,7 @@
 
       <section id="about" class="reveal"  >
         <h1 class="title">About me:</h1>
+        <br>
         <p>I'm a multidisciplinary creator with expertise in frontend development, game design, 3D art, and video editing. My work bridges the gap between interactive technology and visual storytelling — crafting immersive experiences through clean code, dynamic visuals, and cinematic motion.</p>
 
 
@@ -286,6 +615,29 @@
 
 
 
+
+      <div class="info-card" style="  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes button to bottom */
+  align-items: center;        /* centers horizontally */
+  height: 100%;               /* make sure the parent has a set height */
+  position: relative;
+  padding-bottom: 1rem;       /* add space under the button */
+">
+        <h2>Oline Store</h2>
+        <p>
+          This online store is a limitless creative marketplace — a universal space built for artists, creators, brand owners, and innovators of every kind. Here, imagination has no boundaries and opportunity is open to all. 
+          
+          <!-- <span class="toolong"> Whether you design, craft, or curate, this platform offers a space to showcase your work, grow your brand, and connect with a community that values originality. We welcome collaboration — together, we build, create, and elevate.</span> -->
+
+        </p>
+        <br>
+        <button class="shadow__btn">
+          Coming Soon!
+        </button>
+      </div>
+
+
       <div class="info-card" style="  display: flex;
         flex-direction: column;
         justify-content: flex-end; /* pushes button to bottom */
@@ -304,27 +656,6 @@
           <i class="fa fa-music" aria-hidden="true" style="color: #fff;"></i><span style="color: #fff;">-Explore</span></a>
         </button>
       </div>
-
-
-
-      <div class="info-card" style="  display: flex;
-  flex-direction: column;
-  justify-content: flex-end; /* pushes button to bottom */
-  align-items: center;        /* centers horizontally */
-  height: 100%;               /* make sure the parent has a set height */
-  position: relative;
-  padding-bottom: 1rem;       /* add space under the button */
-">
-        <h2>Oline Store</h2>
-        <p>
-          Our online store connects creators directly with their fans. Artists can sell their official merchandise, while a separate curated shop offers 3D art, prints, and digital visuals for collectors and enthusiasts worldwide.
-        </p>
-        <br>
-        <button class="shadow__btn">
-          Coming Soon!
-        </button>
-      </div>
-
 
 
       <div class="info-card" style="  display: flex;
@@ -362,7 +693,6 @@
       </div>
       
       
-      
       <div class="info-card" style="  display: flex;
         flex-direction: column;
         justify-content: flex-end; /* pushes button to bottom */
@@ -397,7 +727,7 @@
         
       </div>
 
-
+      
 
       <!-- btn Style -->
       <style> 
