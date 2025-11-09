@@ -194,7 +194,7 @@ About Page
 
 .video-grid-section1  {
 
-  max-width: 80%;
+  max-width: 100%;
 
   filter: drop-shadow(1px 1px 8px rgb(255, 255, 255));
   -webkit-filter: drop-shadow(1px 1px 8px rgb(255, 255, 255));
