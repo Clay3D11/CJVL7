@@ -1,0 +1,47 @@
+/* ===================== */
+/* Hero Fixed Background */
+/* ===================== */
+#hero1bg {
+  background: url('../img/art/10.jpg') center center / contain no-repeat fixed;
+}
+
+#hero2bg {
+  background: url('../img/art/10.jpg') center center / contain no-repeat fixed;
+  filter: hue-rotate(80deg);
+  -webkit-filter: hue-rotate(80deg);
+}
+
+/* Hero container & inner content */
+.hero1bg, 
+.content {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.inner, 
+.hero .inner, 
+.hero .inner2 {
+  padding-top: 2em;
+  min-height: 200px;
+  position: relative;
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Copy container for hero text or images */
+.copy {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto; /* center horizontally */
+}
+
+/* Fixed text element */
+.fixedbg {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 62px;
+  text-align: center;
+}
