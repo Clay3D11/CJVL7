@@ -756,3 +756,50 @@ h1 > span > span { animation: animateWords 5s infinite; }
     display: none;
   }
 }
+
+
+
+
+
+/* Projects Tags / tech list */
+/* Projects Tags / tech list */
+/* Projects Tags / tech list */
+.project-card ul,
+.project-cardrealestate ul {
+  margin-top: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-card ul li,
+.project-cardrealestate ul li {
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  margin: 4px 4px 0 0;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Links / buttons */
+.project-card a,
+.project-cardrealestate a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+
+
+  text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc;
+}
+
+.project-card a:hover,
+.project-cardrealestate a:hover {
+  background-color: #555;
+}
