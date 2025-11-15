@@ -638,12 +638,19 @@ h1 > span > span { animation: animateWords 5s infinite; }
   FIXED BACKGROUNDS
 =============================*/
 #hero1bg {
-  background: url('../img/art/10.jpg') center/contain no-repeat fixed;
+  background: url('./assets/img/art/33.jpg') center/contain no-repeat fixed;
 }
 
 #hero2bg {
-  background: url('../img/art/10.jpg') center/contain no-repeat fixed;
-  filter: hue-rotate(80deg);
+  background: url('./assets/img/art/33.jpg') center/contain no-repeat fixed;
+  filter: hue-rotate(150deg);
+  -webkit-filter: hue-rotate(150deg);
+}
+
+#hero3bg {
+  background: url('./assets/img/art/33.jpg') center/contain no-repeat fixed;
+  filter: hue-rotate(200deg);
+  -webkit-filter: hue-rotate(200deg);
 }
 
 .inner {
@@ -653,6 +660,7 @@ h1 > span > span { animation: animateWords 5s infinite; }
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  
 }
 
 .copy {
