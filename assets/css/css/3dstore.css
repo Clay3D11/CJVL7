@@ -24,7 +24,7 @@
   max-width: 300px;
 }
 
-/* Individual swiper slides */
+/* Swiper slides */
 .swiper-slide {
   border-radius: 16px;
   overflow: hidden;
@@ -32,7 +32,6 @@
 }
 
 .swiper-slide img {
-  display: block;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -50,34 +49,34 @@
   gap: 10px;
   padding: 10px;
   border-radius: 12px 12px 0 0;
-  background-color: white;
+  background: #fff;
 }
 
 .details h3 {
-  text-align: center;
   font-size: 12px;
   font-weight: bold;
   color: #0080ff;
+  text-align: center;
   z-index: 2;
 }
 
 .details p {
-  background-color: #0080ff;
+  background: #0080ff;
   padding: 0.3rem 0.8rem;
   border-radius: 12px;
   font-size: 12px;
-  color: white;
+  color: #fff;
 }
 
 /* Card buttons */
 .details button {
-  border: 1px solid rgb(255, 0, 0);
-  background-color: white;
-  border-radius: 50%;
   width: 30px;
   height: 30px;
   display: flex;
   align-items: center;
+  border-radius: 50%;
+  border: 1px solid red;
+  background: #fff;
   cursor: pointer;
 }
 
@@ -85,7 +84,7 @@
   opacity: 0.85;
 }
 
-/* Swiper navigation buttons */
+/* Swiper navigation arrows */
 #prev-button:after,
 #next-button:after {
   color: #c2c0c0;
@@ -118,8 +117,8 @@
 
 .website-wrapper a {
   color: #6c63ff;
-  text-decoration: none;
   font-size: 0.9rem;
+  text-decoration: none;
 }
 
 .website-wrapper a:hover {
@@ -130,7 +129,6 @@
 /* Responsive Styles             */
 /* ============================= */
 
-/* Tablets and below */
 @media (max-width: 768px) {
   .store {
     display: grid;
@@ -150,18 +148,15 @@
 
   .website-container {
     height: 400px;
-    aspect-ratio: 16 / 9;
   }
 }
 
-/* Larger devices */
 @media (min-width: 769px) {
   .store {
     display: flex;
   }
 
   .swiper-slide img {
-    display: block;
     width: 100%;
     height: auto;
     object-fit: cover;
