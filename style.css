@@ -1267,3 +1267,85 @@ svg text {
     box-shadow: none;
   }
 }
+
+
+
+/* 3D Visual Flickering Heading */
+/* 3D Visual Flickering Heading */
+/* 3D Visual Flickering Heading */
+
+.blinkingheading {
+  /* text-align: center;
+  width: 65%;
+  height: 250px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  user-select: none; */
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  text-align: center;
+  font-size: clamp(2rem, 6vw, 5rem);
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+
+
+
+  z-index: 5; /* makes sure it's above everything */
+  pointer-events: none; /* heading won't block clicks */
+
+
+}
+
+.blinkingheading b{
+  font: 400 10vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #4457ff, 0 0 0.5em #4457ff, 0 0 0.1em #4744ff, 0 10px 3px #000;
+}
+.blinkingheading b span{
+  animation: blink linear infinite 2s;
+}
+.blinkingheading b span:nth-of-type(2){
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+      color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
