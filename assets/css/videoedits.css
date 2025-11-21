@@ -128,6 +128,9 @@
     filter: drop-shadow(1px 1px 8px blue);
 }
 
+/* ============================= */
+/* Video Card                    */
+/* ============================= */
 .video-card {
     width: 100%;
     max-width: 400px;
@@ -135,16 +138,13 @@
     background: #000;
     border-radius: 16px;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
 .video-card video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 16px;
 }
 
 .video-card:hover {
@@ -159,9 +159,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
-    /*margin-top: 2rem;
-    */filter: drop-shadow(1px 2px 3px#00fffb);
-    -webkit-filter: drop-shadow(1px 2px 5px#00fffb);
+    filter: drop-shadow(1px 2px 3px #00fffb);
+    -webkit-filter: drop-shadow(1px 2px 5px #00fffb);
 }
 
 .videos-card {
@@ -172,35 +171,14 @@
     transition: transform 0.3s ease;
 }
 
-.video-card {
-  width: 100%;
-  max-width: 400px;
-  aspect-ratio: 16/9;
-  border-radius: 16px;
-  overflow: hidden;
-  position: relative;
-}
-
-.video-card video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .videos-card:hover {
     transform: translateY(-20px);
 }
 
-
-
-
-
-
-
-
-/* Backgrounds for individual video cards */
+/* ============================= */
+/* Backgrounds for individual cards */
+/* ============================= */
 .videos-grid :nth-child(1) {
-    /* background-image: url(../img/gif/eyelooping.gif); */
     background-position: center;
     background-size: cover;
 }
@@ -227,7 +205,6 @@
     text-align: center;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
     text-shadow: 0 0 3px #00fffb, 0 0 10px #0081bc;
 }
 
@@ -260,29 +237,24 @@
         padding: 1rem;
     }
 
-
     .slide-track .slide img {
         width: 100%;
     }
-    
-
 
     .video-card .video-container {
-    width: 100%;
-    max-width: 400px;
-    aspect-ratio: 16/9;
-    border-radius: 16px;
-    overflow: hidden;
-    position: relative;
+        width: 100%;
+        max-width: 400px;
+        aspect-ratio: 16/9;
+        border-radius: 16px;
+        overflow: hidden;
+        position: relative;
     }
-
 
     .video-card .video-container video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
-
 }
 
 @media (max-width: 600px) {
