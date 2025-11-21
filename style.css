@@ -287,6 +287,10 @@ section p {
 }
 
 
+
+
+
+
 /*=============================
   WORD ANIMATION
 =============================*/
@@ -300,6 +304,11 @@ h1 > span > span { animation: animateWords 5s infinite; }
   75%  { transform: translateY(-300%); }
   100% { transform: translateY(-400%); }
 }
+
+
+
+
+
 
 
 /*=============================
@@ -325,6 +334,8 @@ h1 > span > span { animation: animateWords 5s infinite; }
     0 0 50px rgb(0,140,255),
     0 0 100px rgb(0,140,255);
 }
+
+
 
 
 /*=============================
@@ -373,70 +384,6 @@ h1 > span > span { animation: animateWords 5s infinite; }
 }
 
 
-/*=============================
-  FOOTER
-=============================*/
-.main-footer {
-  text-align: center;
-  padding: 2rem;
-  background: #126bd800;
-  color: #ffffff;
-  font-size: .9rem;
-
-
-}
-
-.main-footer p {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: 700;
-  font-size: 30px;
-  color: rgb(255, 255, 255);
-}
-
-
-/*=============================
-  RESPONSIVE NAVIGATION
-=============================*/
-@media (max-width: 768px) {
-  .navbar ul {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100%;
-    height: 450px;
-    z-index: -1;
-    transition: .4s;
-  }
-
-  .navbar ul li {
-    padding-top: 65px;
-  }
-
-  .navbar span {
-    text-align: center;
-  }
-
-  .navbar ul.active {
-    display: flex;
-    width: 20%;
-  }
-
-  .menu-toggle { display: block; }
-
-  .hero-content h1 { font-size: 2rem; }
-  
-  .toolong {
-    display: none;
-  }
-
-  
-}
-
-@media (max-width: 425px) {
-  main { margin: 5vh 1em 0 1em; }
-}
 
 
 /*=============================
@@ -455,27 +402,6 @@ h1 > span > span { animation: animateWords 5s infinite; }
   text-align: center;
 }
 
-.about-section h1 {
-  padding: 1rem;
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.about-section h4 {
-  font-weight: 500;
-  color: #0d00ff;
-  margin-bottom: 1.5rem;
-}
-
-.about-section ul {
-  font-size: 30px;
-  list-style: none;
-  padding: 0;
-  text-align: left;
-  display: flex;
-  align-items: center;
-}
-
 .about-section p {
   font-size: 25px;
   font-weight: 700;
@@ -484,17 +410,10 @@ h1 > span > span { animation: animateWords 5s infinite; }
   text-align: left;
 }
 
+
 @media (max-width: 768px) {
   .about-section {
     padding-top: 2em;
-    text-align: center;
-  }
-
-  .about-section h1 { font-size: 2rem; }
-
-  .about-section ul {
-    font-size: 30px;
-    display: block;
     text-align: center;
   }
 
@@ -503,6 +422,11 @@ h1 > span > span { animation: animateWords 5s infinite; }
     text-align: center;
   }
 }
+
+
+
+
+
 
 
 /*=============================
@@ -526,6 +450,10 @@ h1 > span > span { animation: animateWords 5s infinite; }
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
 }
+
+
+
+
 
 
 /*=============================
@@ -1365,3 +1293,69 @@ svg text {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================
+  RESPONSIVE NAVIGATION
+=============================*/
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    transition: .4s;
+  }
+
+  .navbar ul li {
+    padding-top: 65px;
+  }
+
+  .navbar span {
+    text-align: center;
+  }
+
+  .navbar ul.active {
+    display: flex;
+    width: 20%;
+  }
+
+  .menu-toggle { display: block; }
+
+  .hero-content h1 { font-size: 2rem; }
+  
+  .toolong {
+    display: none;
+  }
+
+  
+}
+
+@media (max-width: 425px) {
+  main { margin: 5vh 1em 0 1em; }
+}
