@@ -126,7 +126,7 @@ body {
 }
 
 .bg h1 {
-  font-size: 20rem;
+  /* font-size: 20rem; */
   filter: opacity(.5);
   text-shadow:
     -1px -1px 1px #efede3,
@@ -178,7 +178,7 @@ body {
 =============================*/
 .title {
   text-align: center;
-  font-size: 45px;
+  font-size: 35px;
   font-family: 'Times New Roman', serif;
   text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc;
 }
@@ -997,7 +997,9 @@ h1 > span > span { animation: animateWords 5s infinite; }
 
 
 
-
+/* Contact Section */
+/* Contact Section */
+/* Contact Section */
 
 
 
@@ -1270,6 +1272,17 @@ svg text {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* 3D Visual Flickering Heading */
 /* 3D Visual Flickering Heading */
 /* 3D Visual Flickering Heading */
@@ -1284,7 +1297,7 @@ svg text {
   left: 0;
   right: 0;
   bottom: 0;
-  user-select: none; */
+  user-select: none; */ 
 
   position: absolute;
   top: 30%;
@@ -1349,3 +1362,6 @@ svg text {
     text-shadow: inherit;
   }
 }
+
+
+
