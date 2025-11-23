@@ -247,13 +247,13 @@
 .slider::after {
   content: "";
   position: absolute;
-  width: 12%;
+  width: 100%;
   height: 100%;
   pointer-events: none;
   z-index: 2;
 }
 
-.slider::before {
+/* .slider::before {
   left: 0;
   top: 0;
   background: linear-gradient(to right, #0d1117 60%, transparent);
@@ -263,7 +263,7 @@
   right: 0;
   top: 0;
   background: linear-gradient(to left, #0d1117 60%, transparent);
-}
+} */
 
 /* ============================= */
 /* Responsive Styles             */
@@ -315,11 +315,11 @@
 }
 
 /* Mobile */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .slide {
     width: clamp(140px, 40vw, 200px);
   }
-}
+} */
 
 /* Larger devices */
 @media (min-width: 769px) {
