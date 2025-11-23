@@ -1373,7 +1373,15 @@ svg text {
 
 
 
+.spin {
+  animation: rotate 8s linear infinite;
 
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
 
 
 
@@ -1435,8 +1443,8 @@ svg text {
     justify-content: center;
     align-items: center;
     
-    height: 200px;
-    max-width: 600px;
+    height: 250px;
+    /* max-width: 600px; */
     width: 100%;
 
 
