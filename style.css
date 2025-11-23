@@ -1482,12 +1482,12 @@ svg text {
     align-items: center;
 
 
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #fff;
 
-    font-size: 7dvb;
+    font-size: 10dvb;
     font-weight: 900;
-    line-height: 52px;
+    line-height: 73px;
     letter-spacing: 6px;
 
 
@@ -1560,4 +1560,38 @@ svg text {
 
 legend {
   text-align: center;
+}
+
+
+
+
+
+
+
+/* Limitless Creativity heading */
+/* Limitless Creativity heading */
+/* Limitless Creativity heading */
+
+
+.minimal-heading {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  /* padding: 0 .5em; */
+  color: #ffffff;
+  line-height: 1.1;
+  text-shadow: 0 0 12px #00fffb;
+  font-family: 'Times New Roman', serif;
+}
+
+
+.minimal-heading::before,
+.minimal-heading::after {
+  content: "“";
+  /* opacity: .25; */
+}
+
+.minimal-heading::after {
+  content: "”";
 }
