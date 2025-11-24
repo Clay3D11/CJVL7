@@ -405,6 +405,7 @@ h1 > span > span { animation: animateWords 5s infinite; }
 .shadow__btn {
   background: rgba(6, 22, 245, 0);
   box-shadow: 0 0 25px rgb(0,140,255);
+  
 }
 
 .shadow__btn:hover {
