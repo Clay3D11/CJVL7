@@ -204,10 +204,10 @@ body {
   position: absolute;
   inset: 0;
   background: url('./assets/img/cv/cv2.png') center/contain no-repeat;
-  filter: drop-shadow(1px 2px 10px #f57701);
+  filter: drop-shadow(1px 2px 10px #00fffb);
   transition: transform .4s ease-out;
   border-image: fill 0 linear-gradient(#0001, #000);
-  -webkit-filter: drop-shadow(1px 2px 10px #f57701);
+  -webkit-filter: drop-shadow(1px 2px 10px #00fffb);
 }
 
 .hero-content {
