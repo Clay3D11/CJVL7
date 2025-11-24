@@ -1467,7 +1467,32 @@ svg text {
     height: 100dvh;
   } */
   
+
+
 }
+
+
+
+
+
+/* Default: show big version, hide small version */
+.big-only { display: block; }
+.small-only { display: none; }
+
+/* Small devices: show small version */
+@media (max-width: 768px) {
+  .big-only { display: none; }
+  .small-only { display: block; }
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 425px) {
   main { margin: 5dvh 1em 0 1em; }
