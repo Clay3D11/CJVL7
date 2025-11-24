@@ -39,7 +39,7 @@ body {
     padding: clamp(1.5rem, 4vw, 3rem);
     
     margin: 0 auto; 
-    /* min-height: 30vh;                */
+    /* min-height: 30dvh;                */
     
     /* border-radius: 30px;
     backdrop-filter: blur(5px);
@@ -189,7 +189,7 @@ body {
   HERO SECTION
 =============================*/
 .hero {
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -238,7 +238,7 @@ body {
   MAIN CONTENT WRAPPER
 =============================*/
 main {
-  margin: 5vh 3em 0 3em;
+  margin: 5dvh 3em 0 3em;
   padding: 2rem .5rem;
   border-radius: 30px;
   backdrop-filter: blur(5px);
@@ -780,7 +780,7 @@ h1 > span > span { animation: animateWords 5s infinite; }
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 5vh;
+    min-height: 5dvh;
     font-size: 60px;
     font-weight: 700;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -1066,7 +1066,7 @@ svg text {
 
 
 .contact-container{
-  height: 60vh;
+  height: 60dvh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -1210,7 +1210,7 @@ svg text {
   justify-content: center;
   align-items: center;
   background: #000;
-  min-height: 100vh;
+  min-height: 100dvh;
   margin: 0;
   padding: 2rem;
   } */
@@ -1334,7 +1334,7 @@ svg text {
 }
 
 .blinkingheading b{
-  font: 400 10vh "Vibur";
+  font: 400 10dvh "Vibur";
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #4457ff, 0 0 0.5em #4457ff, 0 0 0.1em #4744ff, 0 10px 3px #000;
 }
@@ -1461,11 +1461,16 @@ svg text {
     padding: clamp(1.5rem, 4vw, 3rem);
   }
 
+
+  .fire-video {
+    width: 100dvh;
+    height: 100dvh;
+  }
   
 }
 
 @media (max-width: 425px) {
-  main { margin: 5vh 1em 0 1em; }
+  main { margin: 5dvh 1em 0 1em; }
 }
 
 
