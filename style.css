@@ -1521,6 +1521,7 @@ svg text {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; */
+
     margin-top: 0;
     margin-bottom: 0;
 
@@ -1543,7 +1544,7 @@ svg text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #fff;
 
-    font-size: 8dvb;
+    font-size: 5em;
     font-weight: 900;
     line-height: 78px;
     letter-spacing: 6px;
@@ -1657,7 +1658,6 @@ legend {
 .minimal-heading::after {
   content: "”";
 }
-
 
 
 
