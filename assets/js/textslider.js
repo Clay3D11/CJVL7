@@ -3,7 +3,7 @@ var sliderItems = [
     "Clainer Ventura",
     "Frontend Dev",
     "Game Dev",
-    "UX/UI & Graphics ",
+    "UX/UI & Graphics",
     "Designer",
     "3D Artist",
     "Video Editor",
@@ -39,7 +39,6 @@ function slideText() {
 
 slideText();
 setInterval(slideText, 4000);
-
 
 
 
