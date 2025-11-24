@@ -6,7 +6,7 @@ var sliderItems = [
     "UX/UI & Graphics ",
     "Designer",
     "3D Artist",
-    "Video Edditor",
+    "Video Editor",
 
 ];
 var textSlider = document.querySelector("#dynamicSlider");
@@ -39,6 +39,7 @@ function slideText() {
 
 slideText();
 setInterval(slideText, 4000);
+
 
 
 
