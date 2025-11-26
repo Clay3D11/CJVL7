@@ -1807,9 +1807,16 @@ h5 {
 }
 
 
+
+
+
+
+
 /*=============================
   VIDEO EDITOR PAGE
 =============================*/
+
+
 .hero-section.video-page {
   /* use this extra class if you differentiate video hero */
   padding: 3rem 2rem;
@@ -2111,6 +2118,8 @@ h5 {
   .toolong {
     display: none;
   }
+
+
 
   .mainad {
     height: 250px;
