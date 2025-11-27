@@ -79,6 +79,13 @@ body {
 }
 
 
+
+
+
+
+
+
+
 /*=============================
   BUTTONS
 =============================*/
@@ -1041,6 +1048,7 @@ dialog::backdrop {
   animation: fadeIn 0.6s ease both;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
+
 }
 
 dialog .x {
@@ -1355,6 +1363,13 @@ p {
   background: var(--color3);
 }
 
+
+
+
+
+
+
+
 /* Neon lines & bullets */
 .aqua-neon {
   display: inline-block;
@@ -1471,6 +1486,16 @@ h5 {
   margin: 0.3rem 0;
   font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* Neon gradient button */
 .btn {
@@ -1751,6 +1776,15 @@ h5 {
   justify-content: center;
   align-items: center;
 }
+
+
+
+
+
+
+
+
+
 
 
 /*=============================
