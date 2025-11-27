@@ -1016,7 +1016,7 @@ legend {
 /*=============================
   HERO MODAL (dialog)
 =============================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"); */
 
 :root {
   --vs-primary: 29 92 255;
@@ -1032,7 +1032,7 @@ dialog {
   max-width: 900px;
   height: 800px;
   padding: 2rem 3rem;
-  background: #ffffff00;
+  background: #494747bd;
   border: none;
   border-radius: 20px;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
@@ -1044,12 +1044,12 @@ dialog {
   -webkit-filter: drop-shadow(1px 2px 10px rgb(255, 0, 0));
 }
 
-dialog::backdrop {
+/* dialog::backdrop {
   animation: fadeIn 0.6s ease both;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
 
-}
+} */
 
 dialog .x {
   filter: grayscale(1);
@@ -1348,6 +1348,10 @@ code {
 
 .contactBox div {
   margin: 0.4rem 0;
+}
+
+.contactbox .left .about p {
+  color: white;
 }
 
 p {
@@ -2358,3 +2362,13 @@ h5 {
     margin: 5dvh 1em 0 1em;
   }
 }
+
+
+
+
+
+
+
+
+
+
