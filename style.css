@@ -2147,6 +2147,7 @@ h5 {
 
   .menu-toggle {
     display: block;
+    text-shadow: 0 0 5px #00fffb, 0 0 10px #0081bc;
   }
 
   .hero-content h1 {
