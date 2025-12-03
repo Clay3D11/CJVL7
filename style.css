@@ -951,6 +951,10 @@ svg text {
   VIDEO PAGE TITLE / SUB-TPQ
 =============================*/
 .sub-tpq {
+
+  padding-left: 50px;
+  padding-right: 50px;
+
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
@@ -960,10 +964,10 @@ svg text {
   align-items: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #fff;
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 900;
-  line-height: 78px;
-  letter-spacing: 6px;
+  line-height: 52px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   background-image: url(./assets/img/gif/3.gif);
   background-size: cover;
